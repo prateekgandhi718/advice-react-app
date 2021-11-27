@@ -13,7 +13,7 @@
 
 .container{
   height: 100%;
-  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('images/adviceImage.jpg');
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.1)), url('images/adviceImage.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
