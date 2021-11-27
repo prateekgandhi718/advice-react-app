@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+* {
+  font-family: "Charter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root, html, body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  height: 100%;
+  background: url('images/adviceImage.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+}
+/* linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),  */
+
+.text{
+  font-size: 3rem;
+  margin: 0rem 4rem;
+}
+
+.btn{
+  background-color: black;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-style: hidden;
+  padding: 1rem;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  cursor: pointer;
 }
